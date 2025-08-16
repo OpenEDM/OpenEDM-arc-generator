@@ -7,7 +7,7 @@
 
 There are various core options available, for example those manufactured by [Magnetics](https://mag-inc.com), [Micrometals](https://micrometals.com), and others. Unfortunately, purchasing these products in small quantities can be quite difficult.
 
-After a long search, I managed to find a suitable low-cost inductor on AliExpress: [KSF250-060A](https://es.aliexpress.com/item/1005005806889630.html). Its specifications are provided in the product description on AliExpress.
+After a long search, I managed to find a suitable low-cost core on AliExpress: [KSF250-060A](https://es.aliexpress.com/item/1005005806889630.html). Its specifications are provided in the product description on AliExpress.
 
 It’s also necessary to calculate the other parameters of the inductor, such as saturation current, inductance versus current, and so on. I’ve found two useful resources on calculation methods:
 
@@ -50,7 +50,7 @@ rolloff = 70.80 %
 L at 25A = 353.59 uH
 ```
 
-Thus, this core will have an inductance of 500 µH at zero current, and about 354 µH at 25 A, which is quite acceptable.
+Thus, with the number of turns set to 25 (this number was fine-tuned), this inductor will have an inductance of 500 µH at zero current and about 354 µH at 25 A, which is quite acceptable.
 
 # Winding Calculation
 
