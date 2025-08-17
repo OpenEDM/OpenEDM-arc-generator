@@ -4,7 +4,7 @@ There are many different approaches to designing EDM arc generators. [Here](http
 
 ## Topology
 
-![](https://github.com/OpenEDM/.github/blob/main/images/arc_generator_topology.png)
+<p align="center"><img src="https://github.com/OpenEDM/.github/blob/main/images/arc_generator_topology.png" width="40%"></p>
 
 The **OpenEDM Arc Generator V1** topology includes MOSFETs **Q1** and **Q2**, Schottky diodes **D1** and **D2**, current sensors **CS1** and **CS2**, as well as the main power inductor **L1**.
 
@@ -23,6 +23,19 @@ Here is a brief description of all the states:
 1. **STATE 4: ARC (POWER FROM INDUCTOR)**. The breakdown has occurred, an arc is established, and current flows through the arc. At this stage, the only source of energy for the arc is the main inductor.
 1. **STATE 5: ARC (POWER FROM INDUCTOR & PS)**. Same as **STATE 4**, but with additional energy supplied from the power supply.
 
-Switching between stated can be implemented in different ways. One possible option is shown below. The diagram on the left, titled "Arc", corresponds to the case where the conditions in the gap allow arcs to occur, or when there is a short circuit between the electrodes. The diagram on the right, titled "No arc", corresponds to the case where no arcs are generated; for example, when the distance between the electrodes is too large.
+## Arc Generator Control
 
-![](https://github.com/OpenEDM/.github/blob/main/images/arc_generator_state_machines.png)
+The **OpenEDM Arc Generator V1** can be controlled in various ways, depending on the requirements. The power stage is quite universal and flexible, supporting multiple operating modes. Below is a description of generator control in iso-frequency mode (more details about the iso-frequency and iso-pulse modes can be found [here](https://www.revtn.ro/_legacy/pdf3-2014/21_Toma%20Emanoil.pdf)). This diagram shows the MOSFET control signals as a function of time:
+
+<p align="center"><img src="https://github.com/OpenEDM/.github/blob/main/images/arc_generator_q1_q2_switching.png" width="70%"></p>
+
+Some details of this control method:
+
+1. **Q2** control. This transistor is controlled purely based on time, using the parameters `t_on` (ignition delay + arc duration) and `t_off` (pause between arcs).
+1. **Q1** control. The period of this transistor’s control signal is the same as that of **Q2**, but its phase is shifted by half a period. This transistor maintains the current in the main inductor using cycle-by-cycle current limiting method. In simple terms, **Q1** turns on according to the timer and turns off when the current through **CS1** exceeds the set value.
+1. As can be seen, this control method uses only one current sensor, **CS1**.
+1. In this control method, **STATE 5: ARC (POWER FROM INDUCTOR & PS)** is not used.
+
+Below is the same information presented in the form of finite state machines. The diagram on the left, titled "Arc", corresponds to the case where the conditions in the gap allow arcs to occur, or when there is a short circuit between the electrodes. The diagram on the right, titled "No arc", corresponds to the case where no arcs are generated; for example, when the distance between the electrodes is too large.
+
+<p align="center"><img src="https://github.com/OpenEDM/.github/blob/main/images/arc_generator_state_machines.png/" width="100%"></p>
