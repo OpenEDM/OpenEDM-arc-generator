@@ -1,2 +1,4 @@
+# OpenEDM Arc Generator V1.1 Known Issues
+
 1. Diode D8 heats up significantly and requires good cooling. This is normal, as it often carries a very high current. It would make sense to replace it with several MOSFETs connected in parallel.
 1. Capacitor C19 also heats up considerably, which is unsafe and shortens its lifespan. Most likely, the three capacitors C19, C20, and C21 are insufficient, and this part of the circuit should be redesigned.
