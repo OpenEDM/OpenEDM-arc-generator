@@ -1,4 +1,4 @@
-# Key Inputs For Power Inductor Design
+# OpenEDM Arc Generator V1: Key Inputs For Power Inductor Design
 
 1. Saturation current of the inductor must match the expected maximum arc current. For the OpenEDM generator, this is currently around 30 A.
 1. Inductance should be as high as possible; the higher the inductance, the lower the required operating frequency of the current control loop, which in turn improves the efficiency of the arc generator.
