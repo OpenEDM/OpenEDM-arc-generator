@@ -6,6 +6,6 @@ THIS PROJECT INVOLVES LETHAL VOLTAGES AND OTHER SERIOUS HAZARDS THAT CAN CAUSE S
 
 ## Hardware Versions
 
-- **V1**
+- **V1**. All the details are [here](https://github.com/OpenEDM/OpenEDM-arc-generator/blob/main/V1/README.md).
 
 ![](https://github.com/OpenEDM/.github/blob/main/images/arc_generator_v1.1.png)
