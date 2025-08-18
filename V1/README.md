@@ -4,7 +4,7 @@
 
 ## Status
 
-This design has been built and tested, confirming that the topology is viable. The latest version is **V1.1**. All design files are available except for the PCB layout. I am not publishing the PCB design because I don’t want this device to be replicated exactly as it is, since it has some issues (see [OpenEDM Arc Generator V1.1: Known Issues](https://github.com/OpenEDM/OpenEDM-arc-generator/blob/main/V1/OpenEDM-arc-generator-V1.1-known-issues.md)). Hopefully, all of these issues will be fixed in **V2**, and its files will be released without exceptions.
+This design has been built and tested, confirming the viability of the topology. The latest version is V1.1. All design files are available except for the PCB layout, which I chose not to publish in order to prevent exact replication of this version, as it still contains several issues (see [OpenEDM Arc Generator V1.1: Known Issues](https://github.com/OpenEDM/OpenEDM-arc-generator/blob/main/V1/OpenEDM-arc-generator-V1.1-known-issues.md)). These problems are expected to be resolved in V2, whose complete set of files will hopefully be released without exceptions.
 
 ## Available Documentation For V1.1
 
