@@ -29,6 +29,8 @@ The **OpenEDM Arc Generator V1** can be controlled in various ways, depending on
 
 <p align="center"><img src="https://github.com/OpenEDM/.github/blob/main/images/arc_generator_q1_q2_switching.png" width="70%"></p>
 
+The **main idea** here is that the current in the main inductor is always maintained at the level required for the arcs. Current regulation is handled by the transistor Q1, which operates in cycle-by-cycle current limiting mode. Transistor Q2 is responsible for controlling ignition and arcs.
+
 Some details of this control method:
 
 1. **Q2** control. This transistor is controlled purely based on time, using the parameters `t_on` (ignition delay + arc duration) and `t_off` (pause between arcs).
