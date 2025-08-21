@@ -26,3 +26,7 @@ THIS PROJECT INVOLVES LETHAL VOLTAGES AND OTHER SERIOUS HAZARDS THAT CAN CAUSE S
 - **[V1]**. Status: tested, all files except the PCB design are released and available [here](https://github.com/OpenEDM/OpenEDM-arc-generator/blob/main/V1/README.md).
 
 ![](https://github.com/OpenEDM/.github/blob/main/images/arc_generator_v1.1.png)
+
+## Project Logs on YouTube (V1 design)
+
+[![](https://github.com/OpenEDM/.github/blob/main/images/youtube_playlist_thumbnails.jpg)](https://www.youtube.com/@OpenEDM)
