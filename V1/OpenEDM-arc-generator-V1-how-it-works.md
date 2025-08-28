@@ -34,7 +34,7 @@ The **main idea** here is that the current in the main inductor is always mainta
 Some details of this control method:
 
 1. **Q2** control. This transistor is controlled purely based on time, using the parameters `t_on` (ignition delay + arc duration) and `t_off` (pause between arcs).
-1. **Q1** control. The period of this transistor’s control signal is the same as that of **Q2**, but its phase is shifted by half a period. This transistor maintains the current in the main inductor using cycle-by-cycle current limiting method. In simple terms, **Q1** turns on according to the timer and turns off when the current through **CS1** exceeds the set value.
+1. **Q1** control. The period of this transistor’s control signal is the same as that of **Q2**, but its phase is shifted by half a period. This transistor maintains the current in the main inductor using cycle-by-cycle current limiting method. In simple terms, **Q1** turns on according to the timer and turns off when the current through **CS1** exceeds the target value.
 1. As can be seen, this control method uses only one current sensor, **CS1**.
 1. In this control method, **STATE 5: ARC (POWER FROM INDUCTOR & PS)** is not used.
 
