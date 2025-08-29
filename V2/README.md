@@ -1,1 +1,1 @@
-WIP
+Everything in this folder is WIP. The V2 design has not yet been tested.
