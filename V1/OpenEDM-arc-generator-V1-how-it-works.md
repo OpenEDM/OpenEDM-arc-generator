@@ -12,7 +12,7 @@ The **OpenEDM Arc Generator V1** topology includes MOSFETs **Q1** and **Q2**, Sc
 
 During operation, the Arc Generator continuously switches between different states. All of them are shown in the diagram below:
 
-![](https://github.com/OpenEDM/.github/blob/main/images/arc_generator_states.png)
+<p align="center"><img src="https://github.com/OpenEDM/.github/blob/main/images/arc_generator_states.svg/" width="100%"></p>
 
 Here is a brief description of all the states:
 
@@ -27,7 +27,7 @@ Here is a brief description of all the states:
 
 The **OpenEDM Arc Generator V1** can be controlled in various ways, depending on the requirements. The power stage is quite universal and flexible, supporting multiple operating modes. Below is a description of generator control in iso-frequency mode (more details about the iso-frequency and iso-pulse modes can be found [here](https://www.revtn.ro/_legacy/pdf3-2014/21_Toma%20Emanoil.pdf)). This diagram shows the MOSFET control signals as a function of time:
 
-<p align="center"><img src="https://github.com/OpenEDM/.github/blob/main/images/arc_generator_q1_q2_switching.png" width="70%"></p>
+<p align="center"><img src="https://github.com/OpenEDM/.github/blob/main/images/arc_generator_q1_q2_switching.svg" width="70%"></p>
 
 The **main idea** here is that the current in the main inductor is always maintained at the level required for the arcs. Current regulation is handled by the transistor Q1, which operates in cycle-by-cycle current limiting mode. Transistor Q2 is responsible for controlling ignition and arcs.
 
@@ -40,4 +40,4 @@ Some details of this control method:
 
 Below is the same information presented in the form of finite state machines. The diagram on the left, titled "Arc", corresponds to the case where the conditions in the gap allow arcs to occur, or when there is a short circuit between the electrodes. The diagram on the right, titled "No arc", corresponds to the case where no arcs are generated; for example, when the distance between the electrodes is too large.
 
-<p align="center"><img src="https://github.com/OpenEDM/.github/blob/main/images/arc_generator_state_machines.png/" width="100%"></p>
+<p align="center"><img src="https://github.com/OpenEDM/.github/blob/main/images/arc_generator_state_machines.svg/" width="100%"></p>
