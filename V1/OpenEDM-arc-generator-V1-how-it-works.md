@@ -4,7 +4,7 @@ There are many different approaches to designing EDM arc generators. [Here](http
 
 ## Topology
 
-<p align="center"><img src="https://github.com/OpenEDM/.github/blob/main/images/arc_generator_topology.png" width="40%"></p>
+<p align="center"><img src="https://github.com/OpenEDM/.github/blob/main/images/arc_generator_topology.svg" width="40%"></p>
 
 The **OpenEDM Arc Generator V1** topology includes MOSFETs **Q1** and **Q2**, Schottky diodes **D1** and **D2**, current sensors **CS1** and **CS2**, as well as the main power inductor **L1**.
 
