@@ -13,7 +13,7 @@ THIS PROJECT INVOLVES LETHAL VOLTAGES AND OTHER SERIOUS HAZARDS THAT CAN CAUSE S
 | Input voltage (DC) | max. 150V                                    | 48V                   |
 | Input power        | max. 200W                                    | max. 300W             |
 | Arc current (peak) | adjustable, max. 30A                         | adjustable, max. 30A  |
-| Breakdown voltage  | fixed (same as the input voltage), max. 150V | adjustable, max. 175V |
+| Ignition voltage   | fixed (same as the input voltage), max. 150V | adjustable, max. 175V |
 
 </div>
 
