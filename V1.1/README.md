@@ -13,4 +13,4 @@ This design has been built and tested, confirming the viability of the topology.
 1. [BOM.](https://github.com/OpenEDM/OpenEDM-arc-generator/blob/main/V1.1/OpenEDM-arc-generator-V1.1-BOM.csv)
 1. [Known issues.](https://github.com/OpenEDM/OpenEDM-arc-generator/blob/main/V1.1/OpenEDM-arc-generator-V1.1-known-issues.md)
 1. [Main power inductor design.](https://github.com/OpenEDM/OpenEDM-arc-generator/blob/main/V1.1/OpenEDM-arc-generator-V1-main-power-inductor-design.md)
-1. [Simulation.](https://github.com/OpenEDM/OpenEDM-arc-generator/tree/main/V1.1/Simulation) You need to have [QSPICE](https://www.qorvo.com/design-hub/design-tools/interactive/qspice) installed to open the project. **It has not been confirmed that the simulation accurately matches reality**, so do not blindly trust the results.
+1. [Simulation.](https://github.com/OpenEDM/OpenEDM-arc-generator/tree/main/V1.1/Simulation) You need to have [QSPICE](https://www.qorvo.com/design-hub/design-tools/interactive/qspice) installed to open the project. **It has not yet been confirmed that the simulation accurately matches reality**, so do not blindly trust the results.
