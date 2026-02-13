@@ -19,9 +19,13 @@ THIS PROJECT INVOLVES LETHAL VOLTAGES AND OTHER SERIOUS HAZARDS THAT CAN CAUSE S
 
 ## Hardware Versions
 
-- **[V2.0]**. Status: preparing for testing.
+- **[V2.0]**. Status: put on hold due to some issues identified during simulation. Details are already available on Discord, and will be posted here later.
 
 ![](https://github.com/OpenEDM/.github/blob/main/images/arc_generator_v2.0.png)
+
+- **[V1.2]**. Status: preparing for testing.
+
+![](https://github.com/OpenEDM/.github/blob/main/images/arc_generator_v1.2.png)
 
 - **[V1.1]**. Status: tested, all files except the PCB design are released and available [here](https://github.com/OpenEDM/OpenEDM-arc-generator/blob/main/V1.1/README.md).
 
