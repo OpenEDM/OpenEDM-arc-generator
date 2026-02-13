@@ -1,0 +1,524 @@
+ÿØÿÛ«schematic
+  «component (-6700,2700) 0 0
+    «symbol Schottky
+      «type: D»
+      «description: Schottky Diode»
+      «library file: Schottky.txt»
+      «shorted pins: false»
+      «line (100,80) (-100,80) 0 0 0x1000000 -1 -1»
+      «line (0,200) (0,80) 0 0 0x1000000 -1 -1»
+      «line (0,-200) (0,-70) 0 0 0x1000000 -1 -1»
+      «line (-100,40) (-100,80) 0 0 0x1000000 -1 -1»
+      «line (100,80) (100,120) 0 0 0x1000000 -1 -1»
+      «line (100,120) (70,120) 0 0 0x1000000 -1 -1»
+      «line (-70,40) (-100,40) 0 0 0x1000000 -1 -1»
+      «triangle (0,80) (100,-70) (-100,-70) 0 0 0x1000000 0x2000000 -1 -1»
+      «text (100,200) 1 7 0 0x1000000 -1 -1 "D1"»
+      «text (100,-200) 1 7 0 0x1000000 -1 -1 "D"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "A"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "K"»
+    »
+  »
+  «component (-9500,1100) 0 0
+    «symbol Schottky
+      «type: D»
+      «description: Schottky Diode»
+      «library file: Schottky.txt»
+      «shorted pins: false»
+      «line (100,80) (-100,80) 0 0 0x1000000 -1 -1»
+      «line (0,200) (0,80) 0 0 0x1000000 -1 -1»
+      «line (0,-200) (0,-70) 0 0 0x1000000 -1 -1»
+      «line (-100,40) (-100,80) 0 0 0x1000000 -1 -1»
+      «line (100,80) (100,120) 0 0 0x1000000 -1 -1»
+      «line (100,120) (70,120) 0 0 0x1000000 -1 -1»
+      «line (-70,40) (-100,40) 0 0 0x1000000 -1 -1»
+      «triangle (0,80) (100,-70) (-100,-70) 0 0 0x1000000 0x2000000 -1 -1»
+      «text (100,200) 1 7 0 0x1000000 -1 -1 "D2"»
+      «text (100,-200) 1 7 0 0x1000000 -1 -1 "D"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "A"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "K"»
+    »
+  »
+  «component (-8100,2900) 0 0
+    «symbol V
+      «type: V»
+      «description: Independent Voltage Source»
+      «shorted pins: false»
+      «line (0,-130) (0,-200) 0 0 0x1000000 -1 -1»
+      «line (0,200) (0,130) 0 0 0x1000000 -1 -1»
+      «rect (-25,77) (25,73) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «rect (-2,50) (2,100) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «rect (-25,-73) (25,-77) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «ellipse (-130,130) (130,-130) 0 0 0 0x1000000 0x1000000 -1 -1»
+      «text (100,150) 1 7 0 0x1000000 -1 -1 "V1"»
+      «text (100,-150) 1 7 0 0x1000000 -1 -1 "V_main"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "+"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "-"»
+    »
+  »
+  «component (-8100,1900) 2 0
+    «symbol L
+      «type: L»
+      «description: Inductor»
+      «shorted pins: false»
+      «line (0,200) (0,180) 0 0 0x1000000 -1 -1»
+      «line (0,-200) (0,-180) 0 0 0x1000000 -1 -1»
+      «coil (-80,180) (80,-180) 0 0 0 0x1000000 -1 -1»
+      «text (80,0) 1 110 0 0x1000000 -1 -1 "L1"»
+      «text (-80,0) 1 109 0 0x1000000 -1 -1 "L"»
+      «text (-300,50) 1 109 0 0x1000000 -1 -1 "RSER=R_L"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "1"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "2"»
+    »
+  »
+  «component (-12600,1900) 0 0
+    «symbol
+      «type: Ø(.DLL)»
+      «shorted pins: false»
+      «rect (-1100,600) (700,-400) 0 0 0 0x4000000 0x4000000 -1 1 -1»
+      «text (-1000,750) 1 12 0 0x1000000 -1 -1 "X1"»
+      «text (250,800) 0.681 13 0 0x1000000 -1 -1 "Generator_Controller"»
+      «text (-850,-1050) 0.681 13 0 0x1000000 -1 -1 "float T = T"»
+      «text (-700,-750) 0.681 13 0 0x1000000 -1 -1 "float I_sp = I_sp"»
+      «text (-700,-450) 0.681 13 0 0x1000000 -1 -1 "float t_on = t_on"»
+      «text (-690,-600) 0.681 13 0 0x1000000 -1 -1 "float t_off = t_off"»
+      «text (-350,-900) 0.681 13 0 0x1000000 -1 -1 "float t_chrg_max = t_chrg_max"»
+      «text (400,-450) 0.681 13 0 0x1000000 -1 -1 "VHIGH = 15"»
+      «pin (700,400) (-350,-100) 1 14 18 0x0 -1 "H_CTRL"»
+      «pin (-1100,-200) (250,-100) 1 14 3 0x0 -1 "GND"»
+      «pin (700,200) (-350,-100) 1 14 18 0x0 -1 "L_CTRL"»
+      «pin (700,-200) (-300,-100) 1 14 145 0x0 -1 "I_act"»
+      «pin (-1100,400) (250,-100) 1 14 146 0x0 -1 "TEST"»
+    »
+  »
+  «component (-10700,700) 0 0
+    «symbol B1
+      «type: B»
+      «description: Behavioral Voltage Source»
+      «shorted pins: false»
+      «line (0,-130) (0,-200) 0 0 0x1000000 -1 -1»
+      «line (0,200) (0,130) 0 0 0x1000000 -1 -1»
+      «rect (-25,77) (25,73) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «rect (-2,50) (2,100) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «rect (-25,-73) (25,-77) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «ellipse (-130,130) (130,-130) 0 0 0 0x1000000 0x1000000 -1 -1»
+      «text (100,150) 1 7 0 0x1000000 -1 -1 "B1"»
+      «text (100,-150) 1 7 0 0x1000000 -1 -1 "V=I(L1)"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "+"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "-"»
+    »
+  »
+  «component (-300,6700) 0 1
+    «symbol SW
+      «type: S»
+      «description: Voltage Controlled Switch»
+      «shorted pins: false»
+      «line (-136,100) (-200,100) 0 0 0x1000000 -1 -1»
+      «line (-136,100) (-121,89) 0 0 0x1000000 -1 -1»
+      «line (-136,-100) (-200,-100) 0 0 0x1000000 -1 -1»
+      «line (-165,91) (-165,61) 0 0 0x1000000 -1 -1»
+      «line (-180,76) (-150,76) 0 0 0x1000000 -1 -1»
+      «line (-180,-76) (-150,-76) 0 0 0x1000000 -1 -1»
+      «line (-136,-100) (-121,-89) 0 0 0x1000000 -1 -1»
+      «line (0,200) (0,105) 0 0 0x1000000 -1 -1»
+      «line (0,-200) (0,-105) 0 0 0x1000000 -1 -1»
+      «line (94,-45) (15,60) 0 0 0x1000000 -1 -1»
+      «ellipse (-150,-150) (150,150) 0 0 0 0x1000000 0x1000000 -1 -1»
+      «ellipse (-25,55) (25,105) 0 0 0 0x1000000 0x1000000 -1 -1»
+      «ellipse (-25,-105) (25,-55) 0 0 0 0x1000000 0x1000000 -1 -1»
+      «text (100,200) 1 7 0 0x1000000 -1 -1 "S1"»
+      «text (100,-200) 1 7 0 0x1000000 -1 -1 "Q_ideal"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "1"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "2"»
+      «pin (-200,100) (0,0) 1 0 0 0x0 -1 "+"»
+      «pin (-200,-100) (0,0) 1 0 0 0x0 -1 "-"»
+    »
+  »
+  «component (-10000,2600) 2 0
+    «symbol R
+      «type: R»
+      «description: Resistor(USA Style Symbol)»
+      «shorted pins: false»
+      «line (0,200) (0,180) 0 0 0x1000000 -1 -1»
+      «line (0,-180) (0,-200) 0 0 0x1000000 -1 -1»
+      «zigzag (-80,180) (80,-180) 0 0 0 0x1000000 -1 -1»
+      «text (80,0) 1 110 0 0x1000000 -1 -1 "R2"»
+      «text (-80,0) 1 109 0 0x1000000 -1 -1 "R_g"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "1"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "2"»
+    »
+  »
+  «component (-7200,1000) 2 0
+    «symbol R
+      «type: R»
+      «description: Resistor(USA Style Symbol)»
+      «shorted pins: false»
+      «line (0,200) (0,180) 0 0 0x1000000 -1 -1»
+      «line (0,-180) (0,-200) 0 0 0x1000000 -1 -1»
+      «zigzag (-80,180) (80,-180) 0 0 0 0x1000000 -1 -1»
+      «text (80,0) 1 110 0 0x1000000 -1 -1 "R3"»
+      «text (-80,0) 1 109 0 0x1000000 -1 -1 "R_g"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "1"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "2"»
+    »
+  »
+  «component (-10600,2200) 0 0
+    «symbol B1
+      «type: B»
+      «description: Behavioral Voltage Source»
+      «shorted pins: false»
+      «line (0,-130) (0,-200) 0 0 0x1000000 -1 -1»
+      «line (0,200) (0,130) 0 0 0x1000000 -1 -1»
+      «rect (-25,77) (25,73) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «rect (-2,50) (2,100) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «rect (-25,-73) (25,-77) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «ellipse (-130,130) (130,-130) 0 0 0 0x1000000 0x1000000 -1 -1»
+      «text (100,150) 1 7 0 0x1000000 -1 -1 "B3"»
+      «text (100,-150) 1 7 0 0x1000000 -1 -1 "V=V(H_CTRL)"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "+"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "-"»
+    »
+  »
+  «component (-8000,600) 0 0
+    «symbol B1
+      «type: B»
+      «description: Behavioral Voltage Source»
+      «shorted pins: false»
+      «line (0,-130) (0,-200) 0 0 0x1000000 -1 -1»
+      «line (0,200) (0,130) 0 0 0x1000000 -1 -1»
+      «rect (-25,77) (25,73) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «rect (-2,50) (2,100) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «rect (-25,-73) (25,-77) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «ellipse (-130,130) (130,-130) 0 0 0 0x1000000 0x1000000 -1 -1»
+      «text (100,150) 1 7 0 0x1000000 -1 -1 "B4"»
+      «text (100,-150) 1 7 0 0x1000000 -1 -1 "V=V(L_CTRL)"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "+"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "-"»
+    »
+  »
+  «component (-3600,6700) 0 1
+    «symbol UJ3C065030B3
+      «type: MN»
+      «description: Cascode SiC FET»
+      «library file: Level2010.txt»
+      «shorted pins: false»
+      «line (0,300) (0,150) 0 0 0x1000000 -1 -1»
+      «line (0,-150) (0,-300) 0 0 0x1000000 -1 -1»
+      «line (-200,50) (-200,-150) 0 0 0x1000000 -1 -1»
+      «line (-200,-100) (-300,-100) 0 0 0x1000000 -1 -1»
+      «line (0,-150) (-150,-150) 0 0 0x1000000 -1 -1»
+      «line (0,150) (-150,150) 0 0 0x1000000 -1 -1»
+      «line (-150,150) (-150,-150) 0 0 0x1000000 -1 -1»
+      «line (100,200) (0,200) 0 0 0x1000000 -1 -1»
+      «line (100,-200) (10,-200) 0 0 0x1000000 -1 -1»
+      «line (100,200) (100,-200) 0 0 0x1000000 -1 -1»
+      «line (40,50) (160,50) 0 0 0x1000000 -1 -1»
+      «line (-200,-200) (-10,-200) 0 0 0x1000000 -1 3»
+      «line (-300,-300) (-200,-200) 0 0 0xff0000 -1 3»
+      «ellipse (-20,-180) (20,-220) 0 0 0 0xff0000 0x3000000 -1 -1»
+      «ellipse (-20,220) (20,180) 0 0 0 0xff0000 0x3000000 -1 -1»
+      «triangle (100,50) (155,-45) (45,-45) 0 0 0x1000000 0x3000000 -1 -1»
+      «triangle (-30,-150) (-125,-125) (-125,-175) 0 0 0x1000000 0x3000000 -1 -1»
+      «text (150,350) 1 7 0 0x1000000 -1 -1 "M1"»
+      «text (100,-300) 1 7 0 0x1000000 -1 -1 "UJ3C065030B3"»
+      «pin (0,300) (0,0) 1 0 0 0x0 -1 "D"»
+      «pin (-300,-100) (0,0) 1 0 0 0x0 -1 "G"»
+      «pin (0,-300) (0,0) 1 0 0 0x0 -1 "S"»
+      «pin (-300,-300) (0,0) 1 0 0 0x0 -1 "KS" "¥"»
+    »
+  »
+  «component (-2000,6700) 0 1
+    «symbol UJ4C075033K3S
+      «type: X»
+      «description: Machine generated symbol for UJ4C075033K3S»
+      «library file: |.subckt UJ4C075033K3S nd ng ns\nLd nd nd1 5n\nLmd ns1 nd2 2n\nLjg ng1 ns3 1n\nLmg ng ng2 10n\nLms ns2 ns3 3n\nLs ns3 ns 2n\nxj1 nd1 ng1 ns1 jfet_G4_750V_Ron params: Ron=27.7m Rgon=1.41 Rgoff=1.41\nxm1 nd2 ng2 ns2 mfet180\n.ends\n.subckt jfet_G4_750V_Ron d g s params: Ron=0 Rgon=0 Rgoff=0\n.param Ron1={Ron}\n.param Rgon1={Rgon}\n.param Rgoff1={Rgoff}\n.param a= {10m/{Ron1}}\nX1 di gi s jfet_G4_750V params: ascale={a}\nXCgs gi s Cgs_G4_750V params: acgs={a}\nXCgd gi di Cgd_G4_750V params: acgd={a}\nRd d di Rtemp {7m/{a}}\n.MODEL Rtemp RES (TC1=6.060e-3, TC2=3.2e-5)\nGRg g gi value={if(v(g,gi)>0,v(g,gi)/{Rgon1},v(g,gi)/{Rgoff1})}\n.ends jfet_G4_750V_Ron\n.subckt jfet_G4_750V d g s Params: ascale=0\n.param Fc1=0.5\n.param Pb1=3.25\n.param M1=0.5\n.param Vd0=400\n.param Vg0=25\n.param gos={0.228*{ascale}}\n.param gfs={191.0*{ascale}}\n.param f=1.763\n.param vth=-9\n.param cgs1={0.918n*{ascale}}\n.param cgd1={0.136n*{ascale}}\n.param bt={({f}*{gfs}+2*{gos}*{Vd0}/{vth})/2/(-{vth})}\n.param lamd={1*{gos}/{bt}/{vth}/{vth}}\n.param cgs0={pwr((1+{Vg0}/{Pb1}),{M1})*{cgs1}}\n.param cgd0={pwr((1+{Vd0}/{Pb1}),{M1})*{cgd1}}\nJ1 d g s jfet_750\nDgs g s Dgs_iv\nDgd g d Dgd_iv\nRgs g s 1Meg\nRgd g d 10Meg\n.MODEL jfet_750 NJF( Beta={{bt}} BetaTce=-0.5 Vto={vth} VtoTc=-3e-3 lambda={lamd} Is=1e-60 Cgs={cgs0} Cgd={cgd0} Fc={Fc1} Pb={Pb1} M={M1})\n.MODEL Dgs_iv D (CJO=0 BV=120 IS=1e-50 ISR=1e-50 Eg=3.5 Rs=0)\n.MODEL Dgd_iv D (CJO=0 BV=900 IBV=1m IS=1e-50 ISR=1e-50 Eg=3.5 Rs={18.9m/{ascale}})\n.ends jfet_G4_750V\n.subckt Cgs_G4_750V g s params: acgs=0\n.param c0=1n\n.param vsgmin=-2\n.param vsgmax=15\n.param a1={1.2*3n*{acgs}}\n.param b1=0.1\n.func Qgs1(u) {- {a1} / {b1} *(exp(- {b1} *u)-1)}\n.param a2={0*{acgs}}\n.param b2=0.5\n.param c2=8.7\n.func Qgs2(u) {if(abs(u)<{vsgmax}, {a2}*u + {a2}*(-{b2})*log(cosh((u-{c2})/-{b2})) -{a2}*(-{b2})*log(cosh(-{c2}/-{b2})), {a2}*{vsgmax} + {a2}*(-{b2})*log(cosh(({vsgmax}-{c2})/-{b2})) -{a2}*(-{b2})*log(cosh(-{c2}/-{b2})))}\nE1 s m1 value={v(s,g)-Qgs1(v(s,g))/{c0}}\nC01 m1 g {c0}\nE2 s m2 value={v(s,g)-Qgs2(limit(v(s,g),-{vsgmax},{vsgmax}))/{c0}}\nC02 m2 g {c0}\n.ends Cgs_G4_750V\n.subckt Cgd_G4_750V g d params:acgd=0\n.param c0=1n\n.param a1={1.2*0.5n*{acgd}}\n.param b1=2\n.param c1=14\n.param vdgmax1=50\n.func Qgd1(u) {if(abs(u)<{vdgmax1}, {a1}*u + {a1}*(-{b1})*log(cosh((u-{c1})/-{b1})) -{a1}*(-{b1})*log(cosh(-{c1}/-{b1})), {a1}*{vdgmax1} + {a1}*(-{b1})*log(cosh(({vdgmax1}-{c1})/-{b1})) -{a1}*(-{b1})*log(cosh(-{c1}/-{b1})))}\n.param a2={0*{acgd}}\n.param b2=0.5\n.param c2=6\n.param vdgmax2=15\n.func Qgd2(u) {if(abs(u)<{vdgmax2}, (-1)*({a2}*u + {a2}*(-{b2})*log(cosh((u-{c2})/-{b2})) -{a2}*(-{b2})*log(cosh(-{c2}/-{b2}))), (-1)*({a2}*{vdgmax2} + {a2}*(-{b2})*log(cosh(({vdgmax2}-{c2})/-{b2})) -{a2}*(-{b2})*log(cosh(-{c2}/-{b2}))))}\nE1 d m1 value={v(d,g)-Qgd1(limit(v(d,g),-{vdgmax1},+{vdgmax1}))/{c0}}\nC01 m1 g {c0}\nE2 d m2 value={v(d,g)-Qgd2(limit(v(d,g),-{vdgmax2},+{vdgmax2}))/{c0}}\nC02 m2 g {c0}\n.ends Cgd_G4_750V\n.SUBCKT mfet180 4 1 2\n.param Ascale= 1.79\nM1 3 5 9 9 NMOS W={ {Ascale}* 2 } L= 0.00000033\nM2 9 5 9 3 PMOS W={ {Ascale}* 2 } L= 0.00000036\nLd 4 7 0.1p\nLs 9 2 0.1p\nLg 1 8 0.1p\nR1 7 3 RTEMP { 0.0051021 / {Ascale} }\nRG 8 5 5\nCGS 5 9 { 3.575E-10 * {Ascale} }\nDBD 9 3 DBD\n.MODEL NMOS NMOS (LEVEL = 3 TOX = 6.00E-08 NSUB = 3.8E+17 VTO= 5.8 THETA = 0 kp= 1.788E-05 eta = 0.0015 TPG = 1 )\n.MODEL PMOS PMOS (LEVEL = 3 TOX = 6.00E-08 NSUB = 4.8E+16 TPG = -1 )\n.MODEL DBD D (CJO={ {Ascale} * 2.6E-10 } VJ= 0.7 M= 0.5 RS= {0.007/ {Ascale} } IS= { {AScale} * 1.706E-12 } TT= 8.00E-09 BV= 25 IBV= 0.00025 )\n.MODEL RTEMP RES (TC1=3E-3)\n.ENDS»
+      «shorted pins: false»
+      «line (100,200) (100,150) 0 0 0x1000000 -1 -1»
+      «line (100,-150) (100,-200) 0 0 0x1000000 -1 -1»
+      «line (-100,150) (-100,-150) 0 0 0x1000000 -1 -1»
+      «line (-100,0) (-200,0) 0 0 0x1000000 -1 -1»
+      «line (100,-150) (-50,-150) 0 0 0x1000000 -1 -1»
+      «line (100,150) (-50,150) 0 0 0x1000000 -1 -1»
+      «line (-50,150) (-50,-150) 0 0 0x1000000 -1 -1»
+      «triangle (70,-150) (-25,-125) (-25,-175) 0 0 0x1000000 0x3000000 -1 -1»
+      «text (250,250) 1 0 0 0x1000000 -1 -1 "X3"»
+      «text (750,-200) 1 0 0 0x1000000 -1 -1 "UJ4C075033K3S"»
+      «pin (100,200) (20,0) 1 15 0 0x0 -1 "nd"»
+      «pin (-200,0) (-20,0) 1 15 0 0x0 -1 "ng"»
+      «pin (100,-200) (0,0) 1 15 0 0x0 -1 "ns"»
+    »
+  »
+  «component (-9500,2700) 0 0
+    «symbol UJ3C065030B3
+      «type: MN»
+      «description: Cascode SiC FET»
+      «library file: Level2010.txt»
+      «shorted pins: false»
+      «line (0,300) (0,150) 0 0 0x1000000 -1 -1»
+      «line (0,-150) (0,-300) 0 0 0x1000000 -1 -1»
+      «line (-200,50) (-200,-150) 0 0 0x1000000 -1 -1»
+      «line (-200,-100) (-300,-100) 0 0 0x1000000 -1 -1»
+      «line (0,-150) (-150,-150) 0 0 0x1000000 -1 -1»
+      «line (0,150) (-150,150) 0 0 0x1000000 -1 -1»
+      «line (-150,150) (-150,-150) 0 0 0x1000000 -1 -1»
+      «line (100,200) (0,200) 0 0 0x1000000 -1 -1»
+      «line (100,-200) (10,-200) 0 0 0x1000000 -1 -1»
+      «line (100,200) (100,-200) 0 0 0x1000000 -1 -1»
+      «line (40,50) (160,50) 0 0 0x1000000 -1 -1»
+      «line (-200,-200) (-10,-200) 0 0 0x1000000 -1 3»
+      «line (-300,-300) (-200,-200) 0 0 0xff0000 -1 3»
+      «ellipse (-20,-180) (20,-220) 0 0 0 0xff0000 0x3000000 -1 -1»
+      «ellipse (-20,220) (20,180) 0 0 0 0xff0000 0x3000000 -1 -1»
+      «triangle (100,50) (155,-45) (45,-45) 0 0 0x1000000 0x3000000 -1 -1»
+      «triangle (-30,-150) (-125,-125) (-125,-175) 0 0 0x1000000 0x3000000 -1 -1»
+      «text (150,350) 1 7 0 0x1000000 -1 -1 "M2"»
+      «text (100,-300) 1 7 0 0x1000000 -1 -1 "UJ3C065030B3"»
+      «pin (0,300) (0,0) 1 0 0 0x0 -1 "D"»
+      «pin (-300,-100) (0,0) 1 0 0 0x0 -1 "G"»
+      «pin (0,-300) (0,0) 1 0 0 0x0 -1 "S"»
+      «pin (-300,-300) (0,0) 1 0 0 0x0 -1 "KS" "¥"»
+    »
+  »
+  «component (-6700,1100) 0 0
+    «symbol UJ3C065030B3
+      «type: MN»
+      «description: Cascode SiC FET»
+      «library file: Level2010.txt»
+      «shorted pins: false»
+      «line (0,300) (0,150) 0 0 0x1000000 -1 -1»
+      «line (0,-150) (0,-300) 0 0 0x1000000 -1 -1»
+      «line (-200,50) (-200,-150) 0 0 0x1000000 -1 -1»
+      «line (-200,-100) (-300,-100) 0 0 0x1000000 -1 -1»
+      «line (0,-150) (-150,-150) 0 0 0x1000000 -1 -1»
+      «line (0,150) (-150,150) 0 0 0x1000000 -1 -1»
+      «line (-150,150) (-150,-150) 0 0 0x1000000 -1 -1»
+      «line (100,200) (0,200) 0 0 0x1000000 -1 -1»
+      «line (100,-200) (10,-200) 0 0 0x1000000 -1 -1»
+      «line (100,200) (100,-200) 0 0 0x1000000 -1 -1»
+      «line (40,50) (160,50) 0 0 0x1000000 -1 -1»
+      «line (-200,-200) (-10,-200) 0 0 0x1000000 -1 3»
+      «line (-300,-300) (-200,-200) 0 0 0xff0000 -1 3»
+      «ellipse (-20,-180) (20,-220) 0 0 0 0xff0000 0x3000000 -1 -1»
+      «ellipse (-20,220) (20,180) 0 0 0 0xff0000 0x3000000 -1 -1»
+      «triangle (100,50) (155,-45) (45,-45) 0 0 0x1000000 0x3000000 -1 -1»
+      «triangle (-30,-150) (-125,-125) (-125,-175) 0 0 0x1000000 0x3000000 -1 -1»
+      «text (150,350) 1 7 0 0x1000000 -1 -1 "M3"»
+      «text (100,-300) 1 7 0 0x1000000 -1 -1 "UJ3C065030B3"»
+      «pin (0,300) (0,0) 1 0 0 0x0 -1 "D"»
+      «pin (-300,-100) (0,0) 1 0 0 0x0 -1 "G"»
+      «pin (0,-300) (0,0) 1 0 0 0x0 -1 "S"»
+      «pin (-300,-300) (0,0) 1 0 0 0x0 -1 "KS" "¥"»
+    »
+  »
+  «component (-1000,1100) 0 0
+    «symbol SW
+      «type: S»
+      «description: Voltage Controlled Switch»
+      «shorted pins: false»
+      «line (-136,100) (-200,100) 0 0 0x1000000 -1 -1»
+      «line (-136,100) (-121,89) 0 0 0x1000000 -1 -1»
+      «line (-136,-100) (-200,-100) 0 0 0x1000000 -1 -1»
+      «line (-165,91) (-165,61) 0 0 0x1000000 -1 -1»
+      «line (-180,76) (-150,76) 0 0 0x1000000 -1 -1»
+      «line (-180,-76) (-150,-76) 0 0 0x1000000 -1 -1»
+      «line (-136,-100) (-121,-89) 0 0 0x1000000 -1 -1»
+      «line (0,200) (0,105) 0 0 0x1000000 -1 -1»
+      «line (0,-200) (0,-105) 0 0 0x1000000 -1 -1»
+      «line (94,-45) (15,60) 0 0 0x1000000 -1 -1»
+      «ellipse (-150,-150) (150,150) 0 0 0 0x1000000 0x1000000 -1 -1»
+      «ellipse (-25,55) (25,105) 0 0 0 0x1000000 0x1000000 -1 -1»
+      «ellipse (-25,-105) (25,-55) 0 0 0 0x1000000 0x1000000 -1 -1»
+      «text (100,200) 1 7 0 0x1000000 -1 -1 "S2"»
+      «text (100,-200) 1 7 0 0x1000000 -1 -1 "Q_ideal"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "1"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "2"»
+      «pin (-200,100) (0,0) 1 0 0 0x0 -1 "+"»
+      «pin (-200,-100) (0,0) 1 0 0 0x0 -1 "-"»
+    »
+  »
+  «component (-1000,1800) 0 0
+    «symbol R
+      «type: R»
+      «description: Resistor(USA Style Symbol)»
+      «shorted pins: false»
+      «line (0,200) (0,180) 0 0 0x1000000 -1 -1»
+      «line (0,-180) (0,-200) 0 0 0x1000000 -1 -1»
+      «zigzag (-80,180) (80,-180) 0 0 0 0x1000000 -1 -1»
+      «text (100,150) 1 7 0 0x1000000 -1 -1 "R4"»
+      «text (100,-150) 1 7 0 0x1000000 -1 -1 "R_arc"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "1"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "2"»
+    »
+  »
+  «component (1100,2300) 0 0
+    «symbol
+      «type: Ø(.DLL)»
+      «shorted pins: false»
+      «rect (-800,600) (1000,-600) 0 0 0 0x4000000 0x4000000 -1 1 -1»
+      «text (-700,750) 1 12 0 0x1000000 -1 -1 "X4"»
+      «text (650,800) 0.681 13 0 0x1000000 -1 -1 "Gap_Controller"»
+      «text (-150,-650) 0.681 13 0 0x1000000 -1 -1 "float V_gap_br = V_gap_br"»
+      «text (150,-800) 0.681 13 0 0x1000000 -1 -1 "float t_ign_delay_min = t_ign_delay_min"»
+      «text (-150,-1100) 0.681 13 0 0x1000000 -1 -1 "float I_arc_min = I_arc_min"»
+      «text (200,-950) 0.681 13 0 0x1000000 -1 -1 "float t_ign_delay_max = t_ign_delay_max"»
+      «text (100,-1250) 0.681 13 0 0x1000000 -1 -1 "float t_startup_delay = t_startup_delay"»
+      «text (250,-1400) 0.681 13 0 0x1000000 -1 -1 "float t_short_timestamp = t_short_timestamp"»
+      «pin (-800,-400) (250,-100) 1 14 3 0x0 -1 "GND"»
+      «pin (-800,400) (250,-100) 1 14 146 0x0 -1 "TEST"»
+      «pin (1000,-400) (-300,-100) 1 14 145 0x0 -1 "I_ARC"»
+      «pin (1000,-200) (-300,-100) 1 14 145 0x0 -1 "V_ARC"»
+      «pin (1000,400) (-450,-100) 1 14 18 0x0 -1 "ARC_CTRL"»
+      «pin (1000,200) (-550,-100) 1 14 18 0x0 -1 "SHORT_CTRL"»
+    »
+  »
+  «component (-1000,3200) 0 0
+    «symbol B1
+      «type: B»
+      «description: Behavioral Voltage Source»
+      «shorted pins: false»
+      «line (0,-130) (0,-200) 0 0 0x1000000 -1 -1»
+      «line (0,200) (0,130) 0 0 0x1000000 -1 -1»
+      «rect (-25,77) (25,73) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «rect (-2,50) (2,100) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «rect (-25,-73) (25,-77) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «ellipse (-130,130) (130,-130) 0 0 0 0x1000000 0x1000000 -1 -1»
+      «text (100,150) 1 7 0 0x1000000 -1 -1 "B7"»
+      «text (100,-150) 1 7 0 0x1000000 -1 -1 "V=I(R4)"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "+"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "-"»
+    »
+  »
+  «component (-3000,1100) 0 0
+    «symbol SW
+      «type: S»
+      «description: Voltage Controlled Switch»
+      «shorted pins: false»
+      «line (-136,100) (-200,100) 0 0 0x1000000 -1 -1»
+      «line (-136,100) (-121,89) 0 0 0x1000000 -1 -1»
+      «line (-136,-100) (-200,-100) 0 0 0x1000000 -1 -1»
+      «line (-165,91) (-165,61) 0 0 0x1000000 -1 -1»
+      «line (-180,76) (-150,76) 0 0 0x1000000 -1 -1»
+      «line (-180,-76) (-150,-76) 0 0 0x1000000 -1 -1»
+      «line (-136,-100) (-121,-89) 0 0 0x1000000 -1 -1»
+      «line (0,200) (0,105) 0 0 0x1000000 -1 -1»
+      «line (0,-200) (0,-105) 0 0 0x1000000 -1 -1»
+      «line (94,-45) (15,60) 0 0 0x1000000 -1 -1»
+      «ellipse (-150,-150) (150,150) 0 0 0 0x1000000 0x1000000 -1 -1»
+      «ellipse (-25,55) (25,105) 0 0 0 0x1000000 0x1000000 -1 -1»
+      «ellipse (-25,-105) (25,-55) 0 0 0 0x1000000 0x1000000 -1 -1»
+      «text (100,200) 1 7 0 0x1000000 -1 -1 "S4"»
+      «text (100,-200) 1 7 0 0x1000000 -1 -1 "Q_ideal"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "1"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "2"»
+      «pin (-200,100) (0,0) 1 0 0 0x0 -1 "+"»
+      «pin (-200,-100) (0,0) 1 0 0 0x0 -1 "-"»
+    »
+  »
+  «component (-3000,1800) 0 0
+    «symbol R
+      «type: R»
+      «description: Resistor(USA Style Symbol)»
+      «shorted pins: false»
+      «line (0,200) (0,180) 0 0 0x1000000 -1 -1»
+      «line (0,-180) (0,-200) 0 0 0x1000000 -1 -1»
+      «zigzag (-80,180) (80,-180) 0 0 0 0x1000000 -1 -1»
+      «text (100,150) 1 7 0 0x1000000 -1 -1 "R9"»
+      «text (100,-150) 1 7 0 0x1000000 -1 -1 "R_short"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "1"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "2"»
+    »
+  »
+  «net (-9500,300) 1 13 0 "GND"»
+  «net (-6700,300) 1 13 0 "GND"»
+  «net (-8100,2500) 1 13 0 "GND"»
+  «net (-14100,1300) 1 13 0 "GND"»
+  «net (-10700,300) 1 13 0 "GND"»
+  «net (-10700,1100) 1 14 1 "CS1"»
+  «net (-11700,1700) 1 7 1 "CS1"»
+  «net (-11700,2100) 1 7 1 "L_CTRL"»
+  «net (-11700,2300) 1 7 1 "H_CTRL"»
+  «net (-8000,300) 1 13 0 "GND"»
+  «net (-1300,900) 1 13 0 "GND"»
+  «net (-1400,1200) 1 11 0 "ARC_CTRL"»
+  «net (-100,1500) 1 13 0 "GND"»
+  «net (2300,2700) 1 7 0 "ARC_CTRL"»
+  «net (2300,2100) 1 7 0 "V_ARC"»
+  «net (2300,1900) 1 7 0 "I_ARC"»
+  «net (-1000,2800) 1 13 0 "GND"»
+  «net (-1000,3600) 1 14 0 "I_ARC"»
+  «net (-3300,900) 1 13 0 "GND"»
+  «net (-3400,1200) 1 11 0 "SHORT_CTRL"»
+  «net (2300,2500) 1 7 0 "SHORT_CTRL"»
+  «net (-1000,300) 1 13 0 "GND"»
+  «net (-1800,2400) 1 14 0 "V_ARC"»
+  «junction (-1000,600)»
+  «junction (-3000,2400)»
+  «junction (-6700,1900)»
+  «junction (-8100,3400)»
+  «junction (-9500,1900)»
+  «wire (-6700,3400) (-6700,2900) "N01"»
+  «wire (-8100,3400) (-6700,3400) "N01"»
+  «wire (-6700,2500) (-6700,1900) "V_ARC"»
+  «wire (-14100,1300) (-14100,1700) "GND"»
+  «wire (-14100,1700) (-13700,1700) "GND"»
+  «wire (-14100,2300) (-13700,2300) "N02"»
+  «wire (-10700,300) (-10700,500) "GND"»
+  «wire (-10700,900) (-10700,1100) "CS1"»
+  «wire (-11900,1700) (-11700,1700) "CS1"»
+  «wire (-9500,300) (-9500,900) "GND"»
+  «wire (-8100,3100) (-8100,3400) "N01"»
+  «wire (-9500,3400) (-8100,3400) "N01"»
+  «wire (-8100,2500) (-8100,2700) "GND"»
+  «wire (-11900,2100) (-11700,2100) "L_CTRL"»
+  «wire (-11900,2300) (-11700,2300) "H_CTRL"»
+  «wire (-7900,1900) (-6700,1900) "V_ARC"»
+  «wire (-9500,1300) (-9500,1900) "N03"»
+  «wire (-9500,1900) (-8300,1900) "N03"»
+  «wire (-7400,1000) (-8000,1000) "N04"»
+  «wire (-8000,400) (-8000,300) "GND"»
+  «wire (-8000,1000) (-8000,800) "N04"»
+  «wire (-9500,1900) (-10600,1900) "N03"»
+  «wire (-10600,2400) (-10600,2600) "N05"»
+  «wire (-10600,1900) (-10600,2000) "N03"»
+  «wire (-10600,2600) (-10200,2600) "N05"»
+  «wire (-9500,2400) (-9500,1900) "N03"»
+  «wire (-6700,800) (-6700,300) "GND"»
+  «wire (-9500,3400) (-9500,3000) "N01"»
+  «wire (-6700,1900) (-6700,1400) "V_ARC"»
+  «wire (-1000,900) (-1000,600) "GND"»
+  «wire (-1000,2400) (-1000,2000) "V_ARC"»
+  «wire (-1000,1600) (-1000,1300) "N06"»
+  «wire (-1200,1200) (-1400,1200) "ARC_CTRL"»
+  «wire (-100,1900) (300,1900) "GND"»
+  «wire (-100,1900) (-100,1500) "GND"»
+  «wire (300,2700) (-100,2700) "N07"»
+  «wire (2100,1900) (2300,1900) "I_ARC"»
+  «wire (2100,2100) (2300,2100) "V_ARC"»
+  «wire (2100,2700) (2300,2700) "ARC_CTRL"»
+  «wire (-1000,2800) (-1000,3000) "GND"»
+  «wire (-1000,3400) (-1000,3600) "I_ARC"»
+  «wire (-1300,900) (-1300,1000) "GND"»
+  «wire (-1300,1000) (-1200,1000) "GND"»
+  «wire (-3000,900) (-3000,600) "GND"»
+  «wire (-3000,2400) (-3000,2000) "V_ARC"»
+  «wire (-3000,1600) (-3000,1300) "N08"»
+  «wire (-3300,900) (-3300,1000) "GND"»
+  «wire (-3300,1000) (-3200,1000) "GND"»
+  «wire (-1800,2400) (-1000,2400) "V_ARC"»
+  «wire (-1000,600) (-3000,600) "GND"»
+  «wire (-3200,1200) (-3400,1200) "SHORT_CTRL"»
+  «wire (2100,2500) (2300,2500) "SHORT_CTRL"»
+  «wire (-1000,300) (-1000,600) "GND"»
+  «wire (-6700,1900) (-5700,1900) "V_ARC"»
+  «wire (-5700,1900) (-5700,2400) "V_ARC"»
+  «wire (-5700,2400) (-3000,2400) "V_ARC"»
+  «wire (-3000,2400) (-1800,2400) "V_ARC"»
+  «rect (-5100,0) (-14550,3700) 0 0 2 0x4000000 0x1000000 -1 0 -1»
+  «rect (-4800,4000) (3400,0) 0 0 2 0x4000000 0x1000000 -1 0 -1»
+  «rect (-4450,2900) (-2250,300) 0 0 2 0x4000000 0x1000000 -1 0 -1»
+  «text (4100,2150) 1 7 0 0x1000000 -1 -1 "ï»¿; GENERATOR PARAMETERS\n\n.param t_on = 3Âµ ; on time\n.param t_off = 47Âµ ; off time\n.param t_chrg_max = 10Âµ ; max inductor charging time\n.param I_sp = 20 ; current setpoint\n.param V_main = 144 ; main voltage level\n.param L = 500Âµ ; main inductor's inductance\n.param R_L = 1m ; main inductor's series resistance\n.param R_g = 50 ; FET gate resistor value\n\n; GAP PARAMETERS\n\n.param R_arc = 1 ; arc resistance\n.param V_gap_br = 100 ; gap breakdown voltage\n.param t_ign_delay_min = 0.2Âµ ; min ignition delay\n.param t_ign_delay_max = 0.2Âµ ; max ignition delay\n.param I_arc_min = 1 ; min arc current, if the arc actual current is less than this value, the arc stops\n.param t_startup_delay = 0m ; startup delay when arcs don't occur, [s]\n.param R_short = 1 ; gap short resistance, [Ohm]\n.param t_short_timestamp = 3m ; at this timestamp gap short occurs and continues until the end of simulation, [s]\n\n; CALCULATED PARAMETERS\n\n.param T = t_on + t_off ; control period\n\n; MODELS\n\n.model Q_ideal SW(Ron=.01 Roff=1Meg Vt=.5 Vh=-.1)\n\n; SIMULATION OPTIONS\n\n.options savepowers=1\n.options MAXSTEP=T/1000\n.ic I(L1)=0\n.tran 5m\n\n; PLOTTING\n\n.plot I(L1)\n.plot V(V_ARC) I(R4)\n.plot V(H_CTRL) V(L_CTRL)\n;.plot P(V1) P(R1) P(D1) P(D2)"»
+  «text (-13850,3550) 1 0 1 0x1000000 -1 -1 "ï»¿Generator model"»
+  «text (-4300,3850) 1 0 1 0x1000000 -1 -1 "ï»¿Gap model"»
+  «text (-4150,2750) 1 0 1 0x1000000 -1 -1 "ï»¿Short"»
+»
+
