@@ -50,7 +50,7 @@ rolloff = 70.80 %
 L at 25A = 353.59 uH
 ```
 
-Thus, with the number of turns set to 25 (this number was fine-tuned), this inductor will have an inductance of 500 µH at zero current and about 354 µH at 25 A, which is quite acceptable.
+Thus, with the number of turns set to 51 (this number was fine-tuned), this inductor will have an inductance of 500 µH at zero current and about 354 µH at 25 A, which is quite acceptable.
 
 # Winding Calculation
 
