@@ -1,4 +1,4 @@
-# OpenEDM Arc Generator V1: How It Works
+# OpenEDM Arc Generator V1.1: How It Works
 
 There are many different approaches to designing EDM arc generators. [Here](https://ietresearch.onlinelibrary.wiley.com/doi/epdf/10.1049/iet-pel.2020.0205) is an excellent paper that explains and compares many of them.
 
@@ -6,7 +6,7 @@ There are many different approaches to designing EDM arc generators. [Here](http
 
 <p align="center"><img src="https://github.com/OpenEDM/.github/blob/main/images/arc_generator_topology.svg" width="40%"></p>
 
-The **OpenEDM Arc Generator V1** topology includes MOSFETs **Q1** and **Q2**, Schottky diodes **D1** and **D2**, current sensors **CS1** and **CS2**, as well as the main power inductor **L1**.
+The **OpenEDM Arc Generator V1.1** topology includes MOSFETs **Q1** and **Q2**, Schottky diodes **D1** and **D2**, current sensors **CS1** and **CS2**, as well as the main power inductor **L1**.
 
 ## Switching States
 
@@ -25,7 +25,7 @@ Here is a brief description of all the states:
 
 ## Arc Generator Control
 
-The **OpenEDM Arc Generator V1** can be controlled in various ways, depending on the requirements. The power stage is quite universal and flexible, supporting multiple operating modes. Below is a description of generator control in iso-frequency mode (more details about the iso-frequency and iso-pulse modes can be found [here](https://www.revtn.ro/_legacy/pdf3-2014/21_Toma%20Emanoil.pdf)). This diagram shows the MOSFET control signals as a function of time:
+The **OpenEDM Arc Generator V1.1** can be controlled in various ways, depending on the requirements. The power stage is quite universal and flexible, supporting multiple operating modes. Below is a description of generator control in iso-frequency mode (more details about the iso-frequency and iso-pulse modes can be found [here](https://www.revtn.ro/_legacy/pdf3-2014/21_Toma%20Emanoil.pdf)). This diagram shows the MOSFET control signals as a function of time:
 
 <p align="center"><img src="https://github.com/OpenEDM/.github/blob/main/images/arc_generator_q1_q2_switching.svg" width="70%"></p>
 
