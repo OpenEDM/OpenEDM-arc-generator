@@ -19,7 +19,7 @@ THIS PROJECT INVOLVES LETHAL VOLTAGES AND OTHER SERIOUS HAZARDS THAT CAN CAUSE S
 
 ## Hardware Versions
 
-- **[V2.1]**. Status: put on hold due to some issues identified during simulation. Details are already available on Discord, and will be posted here later.
+- **[V2.1]**. Status: put on hold due to some issues identified during simulation. Details are [here](https://github.com/OpenEDM/OpenEDM-arc-generator/tree/main/V2.1#status).
 
 ![](https://github.com/OpenEDM/.github/blob/main/images/arc_generator_v2.1.png)
 
