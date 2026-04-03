@@ -8,6 +8,7 @@ During the development process, it became clear that this design is “living on
 
 ## Available Documentation For V2.1
 
+1. [How it works.](https://github.com/OpenEDM/OpenEDM-arc-generator/blob/main/V2.1/OpenEDM-arc-generator-V2.1-how-it-works.md)
 1. [Schematic.](https://github.com/OpenEDM/OpenEDM-arc-generator/blob/main/V2.1/OpenEDM-arc-generator-V2.1-schematic.pdf)
 1. [Switching states.](https://github.com/OpenEDM/OpenEDM-arc-generator/blob/main/V2.1/OpenEDM-arc-generator-V2.1-switching-states.pdf)
 1. [Main power inductor design.](https://github.com/OpenEDM/OpenEDM-arc-generator/blob/main/common/OpenEDM-arc-generator-main-power-inductor-design.md)
