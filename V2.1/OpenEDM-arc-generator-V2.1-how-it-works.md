@@ -1,6 +1,6 @@
 # OpenEDM Arc Generator V2.1: How It Works
 
-I haven't had a chance yet to go into detail about how version 2.1 works. If you're really interested and want to learn more, all the necessary information is provided below:
+I haven't had a chance yet to go into detail about how V2.1 works. If you're really interested and want to learn more, all the necessary information is provided below:
 
 1. [Schematic.](https://github.com/OpenEDM/OpenEDM-arc-generator/blob/main/V2.1/OpenEDM-arc-generator-V2.1-schematic.pdf)
 1. [Switching states.](https://github.com/OpenEDM/OpenEDM-arc-generator/blob/main/V2.1/OpenEDM-arc-generator-V2.1-switching-states.pdf)
