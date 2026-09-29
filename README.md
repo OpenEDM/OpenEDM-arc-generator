@@ -4,6 +4,10 @@
 
 THIS PROJECT INVOLVES LETHAL VOLTAGES AND OTHER SERIOUS HAZARDS THAT CAN CAUSE SEVERE INJURY OR DEATH. YOU MUST READ THE FULL [SAFETY WARNING AND DISCLAIMER DOCUMENT](https://github.com/OpenEDM/.github/blob/main/docs/SAFETY_WARNING_AND_DISCLAIMER.md) BEFORE USING ANY PROJECT FILES. BY PROCEEDING, YOU ACKNOWLEDGE AND ACCEPT ALL RISKS AND AGREE TO USE THIS PROJECT ENTIRELY AT YOUR OWN RESPONSIBILITY.
 
+## ℹ️ Getting KiCad Design Files
+
+The KiCad design files are not publicly released at this time because some versions are either known to have issues or have not yet been tested. I’m happy to share them privately with experienced electronics hobbyists or engineers who understand the risks involved, especially when working with high-voltage and high-current power electronics. If you would like access to the KiCad files, please [contact me on Discord](https://discord.gg/fvSaYB3cFr).
+
 ## Main Specifications
 
 <div align="center">
