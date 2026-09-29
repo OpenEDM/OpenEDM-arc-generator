@@ -23,13 +23,15 @@ The KiCad design files are not publicly released at this time because some versi
 
 ## Hardware Versions
 
-- **[V2.1]**. Status: put on hold due to some issues identified during simulation. Details are [here](https://github.com/OpenEDM/OpenEDM-arc-generator/tree/main/V2.1#status).
-
-![](https://github.com/OpenEDM/.github/blob/main/images/arc_generator_v2.1.png)
+**Note:** The versions below are listed in chronological order of development. Since [each topology has its own independent version sequence](https://github.com/OpenEDM/OpenEDM-arc-generator/edit/main/README.md#hardware-versioning-scheme), version numbers across different topologies do not indicate development order; for instance, `V2.1` was developed before `V1.2`.
 
 - **[V1.2]**. Status: preparing for testing. Details are [here](https://github.com/OpenEDM/OpenEDM-arc-generator/tree/main/V1.2).
 
 ![](https://github.com/OpenEDM/.github/blob/main/images/arc_generator_v1.2.png)
+
+- **[V2.1]**. Status: put on hold due to some issues identified during simulation. Details are [here](https://github.com/OpenEDM/OpenEDM-arc-generator/tree/main/V2.1#status).
+
+![](https://github.com/OpenEDM/.github/blob/main/images/arc_generator_v2.1.png)
 
 - **[V1.1]**. Status: tested, all files except the PCB design are released and available [here](https://github.com/OpenEDM/OpenEDM-arc-generator/blob/main/V1.1/README.md).
 
