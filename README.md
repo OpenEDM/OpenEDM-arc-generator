@@ -23,7 +23,7 @@ The KiCad design files are not publicly released at this time because some versi
 
 ## Hardware Versions
 
-**Note:** The versions below are listed in chronological order of development. Since [each topology has its own independent version sequence](https://github.com/OpenEDM/OpenEDM-arc-generator/edit/main/README.md#hardware-versioning-scheme), version numbers across different topologies do not indicate development order; for instance, `V2.1` was developed before `V1.2`.
+**Note:** The versions below are listed in chronological order of development. Since [each topology has its own independent version sequence](#hardware-versioning-scheme), version numbers across different topologies do not indicate development order; for instance, `V2.1` was developed before `V1.2`.
 
 - **[V1.2]**. Status: preparing for testing. Details are [here](https://github.com/OpenEDM/OpenEDM-arc-generator/tree/main/V1.2).
 
