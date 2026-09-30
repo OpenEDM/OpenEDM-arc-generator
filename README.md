@@ -44,9 +44,9 @@ The format is: **`V<Topology>.<Version>r<Revision>`**
 
 ### How to read the version:
 
-* **Topology / Product Line (`1` or `2`)**: Defines the fundamental architecture.
-  * `V1.x`: The simpler, base topology.
-  * `V2.x`: The advanced topology (adjustable ignition voltage etc).
+* **Topology (`1` or `2`)**: Defines the fundamental architecture.
+  * `V1.x`: Basic inductor-based topology.
+  * `V2.x`: More advanced inductor-based topology (adjustable ignition voltage etc). Significantly complicates the control system and increases the number of components. **Currently on hold.**
 * **Version (`.0`, `.1`, ...)**: Major changes within the topology. Usually means changes in the schematic, new features, or a significantly different BOM.
 * **Revision (`r1`, `r2`, ...)**: Minor patches and bug fixes. The schematic remains essentially the same. This includes fixing component footprints, adjusting silkscreen, or rerouting tracks to reduce noise. Note: If it's the first release of a version, the `r` suffix is omitted. E.g., `V1.2` is followed by `V1.2r1`.
 
