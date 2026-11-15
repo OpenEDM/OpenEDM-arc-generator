@@ -5,7 +5,7 @@
 
 # Core Selection
 
-⚠️ The KSF250-060A design with 51 turns has been tested in practice in OpenEDM. The other four cores below have not been tested in practice; they are candidates evaluated by calculation only.
+⚠️ The KSF250-060A core with 51 turns has been tested in practice in OpenEDM. The other four cores below have not been tested in practice; they are candidates evaluated by calculation only.
 
 The following table compares five inductor cores:
 
@@ -26,9 +26,9 @@ Purchase options checked on **15 November 2026**:
 | Core | Supplier | Listed price for one core | Minimum order / listed stock |
 | --- | --- | ---: | --- |
 | 0078617A7 | [DigiKey][xflux60-buy] | €20.06 | 1 piece / 56 pieces |
-| 0078615A7 | [DigiKey][xflux26-buy] | US$22.60 | 1 piece / 73 pieces |
+| 0078615A7 | [DigiKey][xflux26-buy] | €20.06 | 1 piece / 73 pieces |
 | 0074617A7 | [DigiKey][ultra60-buy] | €24.94 | 1 piece / 58 pieces |
-| MS-250060-2 | [TME][sendust60-buy] | US$13.46 | 1 piece / 15 pieces |
+| MS-250060-2 | [TME][sendust60-buy] | €12.17 | 1 piece / 15 pieces |
 
 # Inductance Calculation
 
@@ -151,7 +151,7 @@ To roughly determine the winding parameters, [this calculator](https://www.coilw
 [sendust60-datasheet]: https://datasheets.micrometals.com/MS-250060-2-DataSheet.pdf
 [xflux-curves]: https://www.mag-inc.com/products/powder-cores/xflux-cores/xflux-material-curves
 [ultra-curves]: https://www.mag-inc.com/products/powder-cores/xflux-ultra-cores/xflux-ultra-material-curves
-[xflux60-buy]: https://www.digikey.de/en/products/detail/magnetics-a-division-of-spang-co/0078617A7/18626674
-[xflux26-buy]: https://www.digikey.com/en/products/detail/magnetics-a-division-of-spang-co/0078615A7/18626779
-[ultra60-buy]: https://www.digikey.de/en/products/detail/magnetics-a-division-of-spang-co/0074617A7/21221965
-[sendust60-buy]: https://www.tme.eu/en/details/ms-250060-2/ring-ferrites/micrometals/
+[xflux60-buy]: https://www.digikey.fi/en/products/detail/magnetics-a-division-of-spang-co/0078617A7/18626674
+[xflux26-buy]: https://www.digikey.fi/en/products/detail/magnetics-a-division-of-spang-co/0078615A7/18626779
+[ultra60-buy]: https://www.digikey.fi/en/products/detail/magnetics-a-division-of-spang-co/0074617A7/21221965
+[sendust60-buy]: https://www.tme.eu/fi/en/details/ms-250060-2/ring-ferrites/micrometals/
